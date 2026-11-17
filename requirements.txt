@@ -1,0 +1,13 @@
+# Ambiente de referência: CPython 3.10, Windows x86-64.
+# Instale primeiro a wheel CUDA do torch conforme scripts/setup_windows.ps1.
+torch==2.5.1
+transformers==4.57.6
+peft==0.18.1
+bitsandbytes==0.50.2
+accelerate==1.12.0
+huggingface-hub==0.36.0
+hf-xet==1.2.0
+numpy==1.26.4
+psutil==7.2.2
+safetensors==0.7.0
+

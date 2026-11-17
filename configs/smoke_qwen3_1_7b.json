@@ -1,0 +1,19 @@
+{
+  "purpose": "environment_smoke_test_only",
+  "model_id": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "seed": 42,
+  "max_input_tokens": 512,
+  "max_new_tokens": 160,
+  "quantization": {
+    "load_in_4bit": true,
+    "quant_type": "nf4",
+    "double_quant": true,
+    "compute_dtype": "float16"
+  },
+  "attention_implementation": "sdpa",
+  "enable_thinking": false,
+  "do_sample": false,
+  "synthetic_review": "O pedido chegou atrasado e a comida estava fria."
+}
+
